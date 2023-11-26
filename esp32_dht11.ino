@@ -2,12 +2,12 @@
 
 #include <WiFi.h>
 
-String apiKey = "HYB4O6K7QARUS0JK";  //  Enter your Write API key from ThingSpeak
+String apiKey = "QSR26T80SOHFOI13";  //  Enter your Write API key from ThingSpeak
 
 const char *ssid = "VIVOFIBRA-8D50";  // replace with your wifi ssid and wpa2 key
 const char *pass = "184E53AF32";
-// const char* server = "api.thingspeak.com";
-const char *server = "184.106.153.149";
+const char* server = "api.thingspeak.com";
+// const char *server = "184.106.153.149";
 
 #define DHTPIN 4  //pin where the dht11 is connected
 
